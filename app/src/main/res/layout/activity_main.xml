@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/g1">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your gender :" />
+
+        <RadioButton
+            android:id="@+id/men"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Men" />
+
+        <RadioButton
+            android:id="@+id/women"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Women" />
+
+        <RadioButton
+            android:id="@+id/dont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Idont know" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/g2"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your relationship :" />
+
+        <RadioButton
+            android:id="@+id/single"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Single" />
+
+        <RadioButton
+            android:id="@+id/inRelationship"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In relationship" />
+
+        <RadioButton
+            android:id="@+id/dontr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Idont know" />
+    </RadioGroup>
+
+</LinearLayout>
